@@ -1,0 +1,19 @@
+{
+    "name": "bilions/kbank-sdk",
+    "description": "Thailand KBank SDK PHP",
+    "type": "sdk",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "AJ",
+            "email": "necessarylion@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {"Bilions\\": "src/"}
+    },
+    "require": {
+        "guzzlehttp/guzzle": "^7.3",
+        "vlucas/phpdotenv": "^5.3"
+    }
+}
